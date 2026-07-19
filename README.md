@@ -5,21 +5,23 @@ This project contains a Jupyter notebook for exploring and analyzing the `WELFak
 ## Contents
 
 - `spam_data_analysis.ipynb` - main analysis notebook
-- `WELFake_Dataset.csv` - dataset used by the notebook
+- `WELFake_Dataset.csv` - dataset used by the notebook, stored with Git LFS
 
 ## Requirements
 
 - Python 3.9+
 - Jupyter Notebook or VS Code with the Python and Jupyter extensions
 - Common data analysis libraries such as `pandas` and `numpy`
+- Git LFS installed if you plan to clone the repository and pull the dataset
 
 ## Getting Started
 
 1. Open `spam_data_analysis.ipynb` in Jupyter Notebook or VS Code.
-2. Run the notebook cells from top to bottom.
-3. Review the data exploration outputs and extend the notebook with additional analysis or modeling steps as needed.
+2. Make sure Git LFS is installed if you cloned the repo on a new machine.
+3. Run the notebook cells from top to bottom.
+4. Review the data exploration outputs and extend the notebook with additional analysis or modeling steps as needed.
 
 ## Notes
 
-- The dataset is included in the repository, so no extra download step is required.
+- The dataset is tracked with Git LFS, so the file is available after cloning as long as Git LFS is installed.
 - If you add temporary files, virtual environments, or notebook checkpoints, they are ignored by the provided `.gitignore`.
